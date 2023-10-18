@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+  body{
+    background-image:radial-gradient(white,wheat)
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header {
+    display: flex;
+     gap: 1000px;
+     background-image: linear-gradient(rgba(128, 128, 128, 0.63),rgba(255, 255, 255, 0.61),rgba(0, 0, 0, 0.452));
+  }
+  .logo{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+.logo img{
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50px;
+}
+.logo p{
+  font-family: fantasy;
+  font-size: 15px;
+}
+  nav{
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   outline: 2px solid black;
+   outline-color:gold;
+   outline-offset: -5px;
+   background-image: linear-gradient(gold, blue, black,gold);
+  }
+  nav ul{
+    display: flex;
+    border: 1px solid dark royalblue;
+    gap: 40px;
+    margin-top: 20px;
+  }
+   ul li{
+    list-style:  none;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  .welcome p{
+    color:blue;
+    font-size: 40px;
+  }
+  .intro{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 60px;
+  }
+  .love{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .love p{
+    margin:0px 440px -120px 40px;
+  }
+    .intro .love .p3{
+    padding: 200px;
+  }
+  .intro-m{
+      background-image: radial-gradient(rgba(255, 192, 203, 0.664),rgba(128, 128, 128, 0.651),rgba(0, 0, 0, 0.562)); 
+      border: 1px solid pink;
+      border-radius: 10px;
+      padding: 20px 10px 60px 10px;
+      font-size: 20px;
+      color:white;
+  }
+  .intro-m .p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+    transform: translateY(-10s)
+  }
+  .intro-m .p2 a{
+       color: yellow;
+       text-decoration: none;
+       margin-top: 20px;
+       background-image: linear-gradient(purple,pink);
+  }
+  .intro-m a:hover {
+    color:black;
+  }
+  .staff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+  }
+  .staff p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: papayawhip;
+    background-color: black;
+    border: 1px solid gold;
+    outline: 2px solid pink;
+    outline-color: pink;
+    outline-offset: -5px;
+    border-radius: 7px;
+    width: 600px;
+    height: 30px;
+    text-wrap: nowrap;
+    margin-top: 30px;
+  }
+.staff-mem{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.s-staff p{
+  margin-top: 10px;
+}
+.s-staff p span{
+  margin-top: 100px;
+}
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line p{
+  border: 2px solid black;
+  width: 1040px;
+  margin-top: 30px;
+}
+.first .finance{
+  margin-right: 698px;
+  margin-top: 70px;
+}
+.s-name{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-right: 600px;
+}
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .first img{
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .second .manage{
+  margin-top: -442px;
+  }
+.s-sur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -px;
+  }
+  .second img{
+    max-width: 400px;
+    max-height: 400px;
+  }
+  
+  .third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third .sec{
+    margin-left: 720px;
+    margin-top: -470px;
+  }
+  .third img{
+   max-width: 400px;
+   max-height: 400px;
+  }
+  .s-nam{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 700px;
+  margin-top: -15px;
+  }
+  .container .holder{
+    border-style: outset;
+    margin-left: 180px;
+    margin-right: 120px;
+    margin-top: 50px;
+  }
